@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color: azure;
+}
+input {
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid burlywood;
+}
+#input-data {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  padding: 50px;
+  margin: auto;
+}
+.error {
+  color: red;
+  font-size: 0.7rem;
+}
+#the {
+  display: block;
+}
+#thank {
+  display: none;
+}
+.thank * {
+  margin: auto;
+  text-align: center;
+}
